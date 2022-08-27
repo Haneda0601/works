@@ -1,0 +1,14 @@
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\bin\Release\CDXDatabase.mdf
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\bin\Release\CDXDatabase_log.ldf
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\bin\Release\ComverterDX.exe.config
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\bin\Release\ComverterDX.exe
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\bin\Release\ComverterDX.pdb
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\obj\Release\ComverterDX.csproj.AssemblyReference.cache
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\obj\Release\ComverterDX.csproj.SuggestedBindingRedirects.cache
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\obj\Release\ComverterDX.Form1.resources
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\obj\Release\ComverterDX.Form_input.resources
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\obj\Release\ComverterDX.Properties.Resources.resources
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\obj\Release\ComverterDX.csproj.GenerateResource.cache
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\obj\Release\ComverterDX.csproj.CoreCompileInputs.cache
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\obj\Release\ComverterDX.exe
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\obj\Release\ComverterDX.pdb

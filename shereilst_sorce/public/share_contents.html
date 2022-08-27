@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex" />
+    <title>リスト詳細画面</title>
+    <link rel="stylesheet" href="css/share_contents.css">
+    <link rel="icon" href="img/icon/sharelist_icon_16.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-firestore.js"></script>
+</head>
+
+<body>
+    <header class="header-3">
+        <div class="header-inner">
+            <div class="logo">
+                <a href="https://ysharelist.web.app/"><img src="img/sharelist_icon.png" alt="Share List"></a>
+            </div>
+        </div>
+    </header>
+    <div id="space"></div>
+    <div class="tops">
+        <div class="main_title">
+            <a id="top_url" target="_blank">
+                <div class="samuneiru"><img id="samune"></div>
+                <div class="play"><img src="img/play_icon.png" id="play_img"></div>
+            </a>
+            <div id="migi">
+                <h2>概要</h2>
+                <p id="gaiyou"></p>
+                <div id="hyouka">
+                    <a href="javascript:GoodBt();" id="good"><img src="img/good_icon.png" class="btn"></a>
+                    <a href="javascript:BadBt();" id="bad"><img src="img/bad_icon.png" class="btn"></a>
+                </div>
+                <h1 id="GBtext"></h1>
+            </div>
+        </div>
+        <div id="t_v">
+            <p id="s_title"></p>
+            <div id="div_value">
+                <img src="img/like-solid-24.png" class="like">
+                <p id="p_value"></p>
+            </div>
+        </div>
+        URL:
+        <a id="URL" target="_blank"></a>
+    </div>
+    <div id="two_list">
+        <div>
+            <input type="text" name="" id="in_kome" placeholder="文字数制限:15文字まで" maxlength="15">
+            <input type="button" onclick="CommentSend()" value="コメント送信" class="send">
+            <h1 id="commentcount"></h1>
+            <p id="e_mes"></p>
+            <ul id='ul_kome' class="kome"></ul>
+        </div>
+        <ul id="list" class="list2"></ul>
+    </div>
+
+    <script src="js/share_contents.js"></script>
+</body>
+
+</html>

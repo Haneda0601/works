@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+body {
+    font-family: monospace;
+    padding-top: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+form {
+    width: 740px;
+    /*お好みで調整してください*/
+    margin: 0 auto;
+}
+
+.inputs {
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+.label {
+    float: left;
+    margin-right: 20px;
+    width: 135px;
+    border-left: solid 3px red;
+    padding-left: 10px;
+}
+
+.input_form {
+    float: left;
+    width: 400px;
+}
+
+.input_url {
+    float: left;
+    width: 400px;
+}
+
+.input_title {
+    float: left;
+    width: 400px;
+}
+
+.input_overview {
+    float: left;
+    width: 400px;
+    font-family: monospace;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+    border: solid 1px #e0e0e0;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 15px;
+    height: 25px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.btn-area {
+    text-align: center;
+}
+
+.postbut {
+    background: red;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+input[type="reset"] {
+    background: #aaa;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+#input_plural {
+    margin: 0px 0;
+}
+
+#input_plural input.form-control {
+    display: inline-block;
+    width: 69%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+}
+
+#input_plural input.pluralBtn {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+.inputs_Box {
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.input_deta {
+    display: block;
+}
+
+button {
+    background: #aaa;
+    border: none;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 8px 8px;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.plabtn {
+    background: red;
+    border: none;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 8px 8px;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.error {
+    color: red;
+    display: flex;
+    padding-left: 168px;
+    font-size: 15px;
+}
+
+.error2 {
+    color: red;
+    display: flex;
+    padding-left: 168px;
+    font-size: 15px;
+}
+
+.header-3 {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: black;
+}
+
+.header-inner {
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1024px;
+    height: 60px;
+    padding: 0 0.8em;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+
+.logo {
+    height: 40px;
+    margin:  0 auto;
+}
+
+.logo img {
+    width: 80px;
+    margin:  0 auto; 
+}
+
+img{
+    right: 80px;
+}

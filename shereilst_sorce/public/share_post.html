@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex" />
+    <title>share_post</title>
+    <link rel="stylesheet" href="css/share_post.css">
+    <link rel="icon" href="img/icon/sharelist_icon_16.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-firestore.js"></script>
+</head>
+
+<body>
+    <header class="header-3">
+        <div class="header-inner">
+            <div class="logo">
+                <a href="https://ysharelist.web.app/"><img src="img/sharelist_icon.png" alt="Share List"></a>
+            </div>
+        </div>
+    </header>
+    <form>
+        <h1>再生リストを投稿</h1>
+        <div class="inputs">
+            <label class="label">タグ</label>
+            <div class="inputs_Box">
+                <div id="form_area">
+                </div>
+                <input type="button" value="追加" onclick="addForm()" class="plabtn">
+            </div>
+        </div>
+        </div>
+        <div class="inputs">
+            <label class="label">URL</label>
+            <input class="input_url" type="text" name="url" placeholder="例）https://youtube.com/playlist?list=xxxxxxxxxx">
+            <p><b class="error"></b></p>
+        </div>
+        <div class="inputs">
+            <label class="label">タイトル</label>
+            <input class="input_title" type="text" name="title" placeholder="例）別れの曲 失恋ソング 泣ける歌 片思い メドレー">
+            <p><b class="error2"></b></p>
+        </div>
+        <div class="inputs">
+            <label class="label">概要</label>
+            <textarea class="input_overview" type="text" name="overview" placeholder="例）恋愛の終わりには別れがあるもの。
+                                                    失恋したら1人で泣きたい時もありますね。
+                                                    音楽を聴いて元気になれる曲を紹介していきます。"></textarea>
+        </div>
+    </form>
+    <div class="btn-area">
+        <button class="postbut" onclick="PostValue()">投稿</button>
+    </div>
+    <script src="js/share_post.js"></script>
+    <script type="text/javascript">
+        var i = 0;
+
+        function addForm() {
+            var input_data = document.createElement('input');
+            if (i < 5) {
+                input_data.type = 'text';
+                var idt = 0;
+                while (document.getElementById('inputform_' + idt) != null) {
+                    idt++;
+                }
+                input_data.id = 'inputform_' + idt;
+                input_data.placeholder = 'タグを追加';
+                var parent = document.getElementById('form_area');
+                parent.appendChild(input_data);
+
+                var button_data = document.createElement('button');
+                button_data.id = idt;
+                button_data.onclick = function() {
+                    deleteBtn(this);
+                }
+                button_data.innerHTML = '削除';
+                var input_area = document.getElementById(input_data.id);
+                parent.appendChild(button_data);
+
+                i++;
+            }
+        }
+
+        function deleteBtn(target) {
+            var target_id = target.id;
+            var parent = document.getElementById('form_area');
+            var ipt_id = document.getElementById('inputform_' + target_id);
+            var tgt_id = document.getElementById(target_id);
+            parent.removeChild(ipt_id);
+            parent.removeChild(tgt_id);
+
+            i--;
+        }
+
+        addForm();
+    </script>
+</body>
+
+</html>

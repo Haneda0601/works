@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex" />
+    <title>シェアリスト</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/icon/sharelist_icon_16.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-firestore.js"></script>
+
+    <!-- ウェブアプリマニフェストの読み込み -->
+    <link rel="manifest" href="json/manifest.json">
+    <!-- ServiceWorkerの登録 -->
+    <script src="js/sw.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('js/sw.js')
+                .then((reg) => {
+                    console.log('Service worker registered.', reg);
+                });
+        }
+    </script>
+
+    <!-- アドレスバー等のブラウザのUIを非表示 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- default（Safariと同じ） / black（黒） / black-translucent（ステータスバーをコンテンツに含める） -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    <!-- ホーム画面に表示されるアプリ名 -->
+    <meta name="apple-mobile-web-app-title" content="ShareList">
+    <!-- ホーム画面に表示されるアプリアイコン -->
+    <link rel="apple-touch-icon" href="img/icon/sharelist_icon_152.png">
+
+</head>
+
+<body>
+    <header class="header-3">
+        <div class="header-inner">
+
+            <div class="logo">
+                <a href="https://ysharelist.web.app/"><img src="img/sharelist_icon.png" alt="Share List"></a>
+            </div>
+            <form class="search-container" onsubmit="return false">
+                <input type="text" id="search-bar" placeholder="データ読込み中...">
+                <a href="javascript:TagSearch();">
+                    <img class="search-icon" src="img/search-icon.png">
+                </a>
+            </form>
+            <nav class="header-nav">
+                <div class="header-nav-item">
+                    <a href="https://ysharelist.web.app/share_post.html" class="header-button header-post">新規投稿</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- sランキング -->
+    <div>
+        <div class="ran-1"></div>
+        <div>
+            <h1 id='ran-search'>検索結果:</h1>
+        </div>
+        <div id='ran-h1'>
+            <h1>ランキング</h1>
+        </div>
+        <div>
+            <img class="loadgif" src="img/loading-37-1.gif">
+            <ul class="ran" id="search-r">
+            </ul>
+        </div>
+    </div>
+    <script src="js/share_main.js"></script>
+</body>
+
+</html>

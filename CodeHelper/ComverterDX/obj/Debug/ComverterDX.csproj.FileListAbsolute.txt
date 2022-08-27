@@ -1,0 +1,14 @@
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\bin\Debug\ComverterDX.exe.config
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\bin\Debug\ComverterDX.exe
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\bin\Debug\ComverterDX.pdb
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\obj\Debug\ComverterDX.csproj.AssemblyReference.cache
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\obj\Debug\ComverterDX.csproj.SuggestedBindingRedirects.cache
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\obj\Debug\ComverterDX.Form1.resources
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\obj\Debug\ComverterDX.Properties.Resources.resources
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\obj\Debug\ComverterDX.csproj.GenerateResource.cache
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\obj\Debug\ComverterDX.csproj.CoreCompileInputs.cache
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\obj\Debug\ComverterDX.exe
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\obj\Debug\ComverterDX.pdb
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\bin\Debug\CDXDatabase.mdf
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\bin\Debug\CDXDatabase_log.ldf
+C:\Users\s202235.TSITCL\source\repos\ComverterDX\ComverterDX\obj\Debug\ComverterDX.Form_input.resources

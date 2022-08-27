@@ -1,0 +1,17 @@
+{
+    "name": "sharelist",
+    "short_name": "share",
+    "icons": [{
+        "src": "/img/icon/sharelist_icon_192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }, {
+        "src": "/img/icon/sharelist_icon_512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }],
+    "start_url": "/index.html?utm_source=homescreen",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#FFFFFF"
+}
