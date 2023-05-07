@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap');
+html {
+    font-family: 'Kiwi Maru', serif;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    width: 20em;
+    height: 3em;
+    line-height: 3em;
+    font-size: 1em;
+    text-align: center;
+    background-color: aliceblue;
+    border: solid 3px #89C8FF;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px 0px black;
+    color: black;
+}
+
+details {
+    margin-bottom: 20px;
+}
+
+details[open] {
+    padding-bottom: 20px;
+    border-bottom: solid black;
+}
+
+summary {
+    border-bottom: solid black;
+}
+
+#a_area {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#first_screen {
+    writing-mode: vertical-rl;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    letter-spacing: 3px;
+    background-color: aliceblue;
+    opacity: 1;
+    animation: fadein-anim 0.5s 3s linear forwards;
+}
+
+#page_message {
+    writing-mode: vertical-rl;
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+@keyframes fadein-anim {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#discription {
+    line-break: normal;
+}
