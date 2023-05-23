@@ -9,7 +9,7 @@ $('#revision_button').on('click', function() {
     if (rev_flg) {
         $('#output_contents').css('height', '70%');
         $('#revision_textarea').show();
-        $(this).text('REV EXECUTION');
+        $(this).text('修正を適用する');
         $('#revision_textarea').val(decision_string);
         $("#delete_button").attr('disabled', true);
         $("#rec_button").attr('disabled', true);
@@ -20,7 +20,7 @@ $('#revision_button').on('click', function() {
         $('#revision_textarea').hide();
         decision_string = $('#revision_textarea').val();
         $('#output_contents').text(decision_string);
-        $(this).text('REV');
+        $(this).text('修正');
         $("#delete_button").attr('disabled', false);
         $("#rec_button").attr('disabled', false);
         $('#Button_Fields').css('opacity', '1');
@@ -32,7 +32,7 @@ $('#rec_button').on('click', function() {
     if (rec_flg) {
         output_recognition.start();
         $('#delete_button').hide();
-        $(this).text('STOP');
+        $(this).text('停止');
         $("#revision_button").attr('disabled', true);
         $('body').css('background-color', '#FCE7EA');
         $('#revision_button').css('opacity', '0.3');
@@ -40,7 +40,7 @@ $('#rec_button').on('click', function() {
     } else {
         output_recognition.stop();
         $('#delete_button').show();
-        $(this).text('REC');
+        $(this).text('録音');
         rec_count = 0;
         $("#revision_button").attr('disabled', false);
         $('body').css('background-color', '#FFF');
