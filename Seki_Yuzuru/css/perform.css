@@ -5,8 +5,10 @@ html {
 
 body {
     height: 650px;
+    background-color: aliceblue;
     display: flex;
     justify-content: center;
+    animation: loop 3s linear infinite alternate;
 }
 
 .page-message {
@@ -17,4 +19,13 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 3em;
+}
+
+@keyframes loop {
+    0% {
+        background-color: #EBF8EB;
+    }
+    100% {
+        background-color: #66cc66;
+    }
 }
