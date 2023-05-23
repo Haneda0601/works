@@ -11,14 +11,16 @@
 - - -
 
 ### Seki_Yuzuru『自主制作』
-席譲りたいけど<br>
+席譲りたいけれど<br>
 声を出して相手に気付かせるのが恥ずかしい人向け<br>
-席譲り応援サイト
+席譲り応援Webアプリ
 
 #### 開発期間・人数・役割
 期間：１日<br>
 人数：１人<br>
 役割：UI・プログラム
+
+#### 作品URL : https://sekiyuzuru.vercel.app/
 
 - - -
 
@@ -30,6 +32,9 @@ Youtube再生リスト<br>
 期間：２ヶ月<br>
 人数：３人<br>
 役割：リーダー兼プログラム
+
+#### コンテストサイト : http://e-zuka.info/2022/resurt.html
+#### 作品URL : https://ysharelist.web.app/
 
 - - -
 
@@ -53,13 +58,15 @@ Youtube再生リスト<br>
 
 - - -
 
-### UTATANE『チーム開発』《プログラム部門優秀賞受賞》
-スマホ一台で測定<bR>
+### UTATANE (作品名：GoodStyle)『チーム開発』《プログラム部門優秀賞受賞》
+スマホ一台で測定<br>
 姿勢改善Androidアプリ
 
 #### 開発期間・人数・役割
 期間：２ヶ月<br>
 人数：３人<br>
 役割：リーダー兼プログラム
+
+#### コンテストサイト : https://www.sisia.or.jp/homepage-contest/index2021.html
 
 - - -
